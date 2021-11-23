@@ -83,7 +83,7 @@ public class Board extends JPanel {
      });
         try{
             imageO = ImageIO.read(getClass().getResource("imageO.png"));
-            imageX = ImageIO.read(getClass().getResource("imageX.png"));
+            imageX = ImageIO.read(getClass().getResource("imageX.jpg"));
 
         }catch (IOException e){
             e.printStackTrace();
